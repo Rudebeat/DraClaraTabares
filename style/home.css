@@ -258,7 +258,8 @@ section#clientes h2 {
        object-fit: contain;
     -o-object-position: bottom;
        object-position: bottom;
-    left: -55px;
+    left: 0;
+    margin: auto;
   }
   section#enfermedades .contenedorSistemas {
     width: 100%;
