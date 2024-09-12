@@ -3,7 +3,7 @@ body {
 }
 
 .fondo {
-  background-image: url(../img/bio_Clara_Tabares.jpg);
+  background-image: url(../img/clara-perfil.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -13,7 +13,7 @@ body {
 .fondo .namePage {
   font-size: 80px;
   color: white;
-  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6);
   position: absolute;
   bottom: 10%;
   left: 5%;

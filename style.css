@@ -12,10 +12,10 @@ body {
 }
 
 .botonWapp {
-  background-color: green;
+  background-color: #29bc73;
   border-radius: 50%;
-  width: 50px;
-  height: 50px;
+  width: 75px;
+  height: 75px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,10 +23,11 @@ body {
   bottom: 50px;
   right: 30px;
   box-shadow: 0 6px 16px 1px rgba(47, 64, 50, 0.4);
-  z-index: 2;
+  z-index: 3;
 }
 .botonWapp i {
   color: white;
+  font-size: 30px;
 }
 
 h1,
@@ -138,27 +139,34 @@ header .contenedorNav .navBS div.navbarColapsado .btnAgendarCitaMenu {
   padding: 5%;
 }
 .contenedorFooter .rrss {
-  padding: 5%;
+  padding: 4%;
+  margin: auto;
 }
+
 .contenedorFooter .rrss h5 {
   color: #6DAB8E;
 }
+
 .contenedorFooter .rrss a {
   margin-right: 15px;
 }
+
 .contenedorFooter .rrss a i {
   color: white;
-  font-size: x-large;
+  font-size: 45px;
 }
+
 .contenedorFooter .news {
   padding: 4%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
+
 .contenedorFooter .news h4 {
   color: #6DAB8E;
 }
+
 .contenedorFooter .news form div button {
   color: white;
 }
