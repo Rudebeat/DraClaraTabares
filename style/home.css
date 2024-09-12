@@ -99,6 +99,8 @@ section#enfermedades .imagenEnfermedades img {
   height: 100%;
   position: absolute;
   bottom: 0;
+  filter: drop-shadow(0px 2px 5px rgb(0, 0, 0, .2));
+  left: -10px;
 }
 section#enfermedades .imagenEnfermedades .imagenEnfermedadesMobile {
   display: none;
@@ -243,12 +245,19 @@ section#clientes h2 {
     display: none;
   }
   section#enfermedades .imagenEnfermedades .imagenEnfermedadesMobile {
-    width: auto;
     height: 100%;
     position: absolute;
     bottom: 0;
     display: initial;
+    margin: auto;
+    right: 0;
+    left: 0;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: bottom;
+    left: -55px;
   }
+
   section#enfermedades .contenedorSistemas {
     width: 100%;
     padding: 5%;
@@ -284,7 +293,7 @@ section#clientes h2 {
 }
 @media only screen and (max-width: 768px) {
   section#enfermedades .imagenEnfermedades {
-    height: 400px;
+    height: 600px;
     overflow: hidden;
   }
 }
