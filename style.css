@@ -9,6 +9,7 @@ body {
   background-image: url(img/background.jpg);
   background-size: contain;
   background-repeat: no-repeat;
+  background-color: #ffffff;
 }
 
 .botonWapp {
