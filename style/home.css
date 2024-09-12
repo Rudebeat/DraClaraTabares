@@ -99,7 +99,7 @@ section#enfermedades .imagenEnfermedades img {
   height: 100%;
   position: absolute;
   bottom: 0;
-  filter: drop-shadow(0px 2px 5px rgb(0, 0, 0, .2));
+  filter: drop-shadow(0px 2px 5px rgba(0, 0, 0, 0.2));
   left: -10px;
 }
 section#enfermedades .imagenEnfermedades .imagenEnfermedadesMobile {
@@ -245,6 +245,7 @@ section#clientes h2 {
     display: none;
   }
   section#enfermedades .imagenEnfermedades .imagenEnfermedadesMobile {
+    width: auto;
     height: 100%;
     position: absolute;
     bottom: 0;
@@ -253,11 +254,13 @@ section#clientes h2 {
     right: 0;
     left: 0;
     max-width: 100%;
-    object-fit: contain;
-    object-position: bottom;
-    left: -55px;
+    -o-object-fit: contain;
+       object-fit: contain;
+    -o-object-position: bottom;
+       object-position: bottom;
+    left: 0;
+    margin: auto;
   }
-
   section#enfermedades .contenedorSistemas {
     width: 100%;
     padding: 5%;

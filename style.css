@@ -11,6 +11,16 @@ body {
   background-repeat: no-repeat;
   background-color: #ffffff;
 }
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #ffffff;
+  }
+}
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: white;
+  }
+}
 
 .botonWapp {
   background-color: #29bc73;
@@ -143,31 +153,25 @@ header .contenedorNav .navBS div.navbarColapsado .btnAgendarCitaMenu {
   padding: 4%;
   margin: auto;
 }
-
 .contenedorFooter .rrss h5 {
   color: #6DAB8E;
 }
-
 .contenedorFooter .rrss a {
   margin-right: 15px;
 }
-
 .contenedorFooter .rrss a i {
   color: white;
   font-size: 45px;
 }
-
 .contenedorFooter .news {
   padding: 4%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-
 .contenedorFooter .news h4 {
   color: #6DAB8E;
 }
-
 .contenedorFooter .news form div button {
   color: white;
 }
